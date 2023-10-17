@@ -1,0 +1,37 @@
+/* styles.css */
+
+/* Style for the "About" component */
+#about {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 15%;
+    padding-top: 10%;
+    min-height: 100vh;
+    background-color: #f0f0f0; /* Set background color for the "About" component */
+  }
+  
+  /* Add any additional styles for the "About" component */
+  .about-description {
+    font-family: "NTR", sans-serif;
+    color: var(--slate);
+    font-size: 18px;
+    max-width: 40%;
+    text-align: justify;
+    padding-bottom: 40px;
+  }
+  
+  /* Style for the tech stack list */
+  .tech-stack {
+    list-style: disc;
+    margin-left: 20px;
+    padding-left: 0;
+  }
+  
+  /* Customize the styles for the tech stack list items if needed */
+  .tech-stack li {
+    font-family: "NTR", sans-serif;
+    font-size: 16px;
+    color: var(--slate);
+  }
+  
